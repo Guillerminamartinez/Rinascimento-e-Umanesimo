@@ -6,7 +6,7 @@
 <title>Umanesimo e Rinascimento</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,6 +20,7 @@
     <a href="#poema">Poema cavalleresco</a>
     <a href="#politica">Politica</a>
     <a href="#arte">Arte</a>
+    <a href="#quiz">Quiz</a>
   </nav>
   <div class="hero-inner">
     <p class="dates">Italia, fine Trecento – fine Cinquecento</p>
@@ -46,7 +47,9 @@
 
 <section id="movimenti" class="sec alt">
   <h2>Umanesimo e Rinascimento</h2>
-  <div class="tabs" role="tablist" aria-label="Confronto">
+  <div class="split">
+<div>
+<div class="tabs" role="tablist" aria-label="Confronto">
     <button role="tab" aria-selected="true" aria-controls="p-uma" id="t-uma">Umanesimo</button>
     <button role="tab" aria-selected="false" aria-controls="p-rin" id="t-rin">Rinascimento</button>
   </div>
@@ -56,6 +59,9 @@
   <div class="tabpanel" id="p-rin" role="tabpanel" aria-labelledby="t-rin" hidden>
     <p>Non è solo un movimento, ma un periodo storico: il compimento maturo degli ideali umanisti, che si estendono a tutte le espressioni della vita e della società. Indica la «rinascita» della civiltà e dell’arte dopo i secoli del Medioevo. Il centro non è più solo lo studio dei testi, ma l’applicazione pratica e creativa dei modelli classici e l’osservazione diretta della natura: è un’epoca di ricerca scientifica.</p>
   </div>
+</div>
+<figure class="fig"><img src="img/venus.jpg" alt="La nascita di Venere di Botticelli" loading="lazy"><figcaption>Sandro Botticelli, La nascita di Venere</figcaption></figure>
+</div>
 </section>
 
 <section id="lingua" class="sec">
@@ -161,6 +167,7 @@
     <article class="panel"><h3>Ciclo carolingio</h3><p>Re Carlomagno e i suoi paladini. Temi: guerra contro i saraceni, onore, religione.</p></article>
     <article class="panel"><h3>Ciclo bretone</h3><p>Re Artù e i cavalieri della Tavola Rotonda. Temi: amore cortese, avventura, magia.</p></article>
   </div>
+<figure class="fig wide"><img src="img/cavaliere.jpg" alt="Un cavaliere inginocchiato davanti a una dama" loading="lazy"><figcaption>L’investitura del cavaliere: l’immaginario dei poemi cavallereschi</figcaption></figure>
 </section>
 
 <section id="politica" class="sec">
@@ -178,6 +185,16 @@
     <article class="panel"><h3>Donatello (1386–1466)</h3><p>Famoso per l’espressività delle sue opere: il <em>David</em> in bronzo, dove il nudo rappresenta la superiorità morale del soggetto, e il monumento equestre al Gattamelata a Padova.</p></article>
     <article class="panel"><h3>Andrea del Verrocchio</h3><p>Autore del monumento equestre a Bartolomeo Colleoni a Venezia, altro fondamentale monumento dell’epoca.</p></article>
   </div>
+<div class="gallery">
+<figure class="fig"><img src="img/david.jpg" alt="David in bronzo di Donatello" loading="lazy"><figcaption>Donatello, David in bronzo</figcaption></figure>
+<figure class="fig"><img src="img/gattamelata.jpg" alt="Monumento equestre al Gattamelata a Padova" loading="lazy"><figcaption>Donatello, monumento equestre al Gattamelata, Padova</figcaption></figure>
+</div>
+</section>
+
+<section id="quiz" class="sec dark">
+  <h2>Quiz finale</h2>
+  <p class="intro">Dieci domande per verificare quello che hai letto.</p>
+  <div class="quiz" id="quiz-box" aria-live="polite"></div>
 </section>
 
 </main>
